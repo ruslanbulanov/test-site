@@ -1,12 +1,12 @@
 # test-site
 
-Create env(in main folder Test):
+# Create env(in main folder Test):
 python -m venv env
 env\Scripts\activate
 
-Create database:
+# Create database:
 python manage.py makemigrations
 python manage.py migrate
 
-Run project:
+# Run project:
 python manage.py runserver
